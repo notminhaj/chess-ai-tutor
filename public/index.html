@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Chess AI Tutor</title>
+    <meta name="description" content="Review your games, train on your own mistakes, and track your progress. Runs locally with Stockfish." />
+    <link rel="icon" href="/logo.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="/css/app.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="#/home"><img src="/logo.svg" alt="" />Chess AI Tutor</a>
+      <nav class="nav" aria-label="Main">
+        <a href="#/home" data-view="home">Home</a>
+        <a href="#/games" data-view="games">Games</a>
+        <a href="#/review" data-view="review">Review</a>
+        <a href="#/puzzles" data-view="puzzles">Puzzles</a>
+        <a href="#/insights" data-view="insights">Insights</a>
+        <a href="#/coach" data-view="coach">Coach</a>
+        <a href="#/analyze" data-view="analyze">Analysis</a>
+        <a href="#/play" data-view="play">Play</a>
+      </nav>
+      <div class="userchip" id="userchip"></div>
+    </header>
+    <div id="banner"></div>
+    <main id="main"></main>
+    <script type="module" src="/js/app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,10 @@
+node_modules/
+bin/
+data/
+public/pieces/
+*.tmp
+tools/calibration/data/
+tools/calibration/*.jsonl
+tools/calibration/games.json
+tools/calibration/features.json
+tools/calibration/accuracy-pairs.jsonl
